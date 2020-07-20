@@ -44,7 +44,6 @@ Is this project is still under development and not stable, you may enconter with
 ### Todos
 
  - Fix no file preservation when changing sections.
- - Add Night Mode
 
 License
 ----
