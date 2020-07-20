@@ -1,5 +1,6 @@
 # Securizer
 ![](https://icon-library.com/images/key-icon-android/key-icon-android-7.jpg)
+
 Securizer is a encryption and decryption tool which uses AES-256 algorithm and your SSH Public Keys to encrypt ZIP files and
 
 ### Current limitations
