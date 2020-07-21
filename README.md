@@ -6,7 +6,7 @@ Securizer is a encryption and decryption tool which uses AES-256 algorithm and y
 ### Current limitations
   - Accepted file size up to 1GB
   - Maximum file count you can upload is 20 files.
-
+(You can always change these in source code)
 
 Securizer uses a number of open source projects to work properly:
 
