@@ -42,12 +42,13 @@ I edited some packages inside *`node_modules`* and added `-webkit-app-region` ty
 
 ### Issues
 
-Is this project is still under development and not stable, you may enconter with errors or bugs. If you experience any bug, issue, or error please feel free to notify me by creating new issue.
+This project is still under development and not stable, you may encounter errors or bugs. If you experience any bug, issue, or error please feel free to notify me by opening new issue.
 
 ### Todos
 
  - Fix no file preservation when changing sections.
  - Prevent upload of unsupported file types.
+ - Checking if SSH Public Keys are generated in accordance with Securizer standards.
 
 ----
 ## License
