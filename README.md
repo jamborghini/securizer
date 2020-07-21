@@ -36,6 +36,9 @@ For production:
 $ npm install
 $ npm start
 ```
+# Important!!!!
+I edited some packages inside *`node_modules`* and added `-webkit-app-region` typing and properties to React core. Changed cipher from `ae256` to `aes-256-ctr` because Electron v4+ no longer supports `aes256`. And some other stylings with created card when you upload files to sections. So releases I've published and the builds you'd be getting will not be the same and may even not work. So change change cipher type  in *`node_modules/edcrypt/lib/edcrypt.js`*. from `aes256` to `aes-256-ctr` and do your own stylings if you wan't to build/package your very own app.
+
 
 ### Issues
 
@@ -44,10 +47,10 @@ Is this project is still under development and not stable, you may enconter with
 ### Todos
 
  - Fix no file preservation when changing sections.
+ - Prevent upload of unsupported file types.
 
-License
 ----
-
+## License
 MIT
 
 
